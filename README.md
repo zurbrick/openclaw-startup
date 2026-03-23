@@ -25,12 +25,16 @@ The agent will walk you through everything interactively.
 
 ## Recommended companion skills
 
-- `cognition` — memory architecture
-- `agent-memory-loop` — lightweight learning capture
-- `battle-tested-agent` — production hardening patterns
-- `agent-hardening` — security posture
-- `openclaw-backup` — disaster recovery
-- `openclaw-guide` — config and troubleshooting
+| Skill | What it does |
+|-------|-------------|
+| [`cognition`](https://clawhub.com/skills/cognition) | Memory architecture — daily logs, durable facts, procedures, retrieval |
+| [`agent-memory-loop`](https://clawhub.com/skills/agent-memory-loop) | Lightweight learning capture — errors, corrections, feature requests |
+| [`battle-tested-agent`](https://clawhub.com/skills/battle-tested-agent) | 16 production-hardened patterns for reliable agents |
+| [`agent-hardening`](https://clawhub.com/skills/agent-hardening) | Lock down against prompt injection, data exfiltration, social engineering |
+| [`openclaw-backup`](https://clawhub.com/skills/openclaw-backup) | Encrypted backup and restore for disaster recovery |
+| [`openclaw-guide`](https://clawhub.com/skills/openclaw-guide) | Config, commands, routing, and troubleshooting reference |
+| [`cron-doctor`](https://clawhub.com/skills/cron-doctor) | Diagnose and triage cron job failures |
+| [`agent-qa-gates`](https://clawhub.com/skills/agent-qa-gates) | Output validation gates — prevent hallucinations and bad deliveries |
 
 ## Philosophy
 

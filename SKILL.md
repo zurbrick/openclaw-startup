@@ -1,5 +1,6 @@
 ---
 name: openclaw-startup
+version: 1.0.0
 description: >
   First-run setup wizard for new OpenClaw agents. Interviews the user to generate a
   tailored SOUL.md, scaffolds memory architecture, installs recommended crons for
@@ -113,16 +114,16 @@ Key items:
 
 Recommend installing these skills based on the user's needs:
 
-| Skill | When to recommend |
-|-------|-------------------|
-| `cognition` | Always — memory architecture |
-| `agent-memory-loop` | Always — lightweight learning capture |
-| `battle-tested-agent` | Always — production hardening patterns |
-| `agent-hardening` | If the agent handles sensitive data or external channels |
-| `openclaw-backup` | If the user wants disaster recovery |
-| `openclaw-guide` | Always — config and troubleshooting reference |
-| `cron-doctor` | If the user sets up crons |
-| `agent-qa-gates` | If the agent will deliver output to humans or external systems |
+| Skill | When to recommend | ClawHub |
+|-------|-------------------|---------|
+| `cognition` | Always — memory architecture | [clawhub.com/skills/cognition](https://clawhub.com/skills/cognition) |
+| `agent-memory-loop` | Always — lightweight learning capture | [clawhub.com/skills/agent-memory-loop](https://clawhub.com/skills/agent-memory-loop) |
+| `battle-tested-agent` | Always — production hardening patterns | [clawhub.com/skills/battle-tested-agent](https://clawhub.com/skills/battle-tested-agent) |
+| `agent-hardening` | If the agent handles sensitive data or external channels | [clawhub.com/skills/agent-hardening](https://clawhub.com/skills/agent-hardening) |
+| `openclaw-backup` | If the user wants disaster recovery | [clawhub.com/skills/openclaw-backup](https://clawhub.com/skills/openclaw-backup) |
+| `openclaw-guide` | Always — config and troubleshooting reference | [clawhub.com/skills/openclaw-guide](https://clawhub.com/skills/openclaw-guide) |
+| `cron-doctor` | If the user sets up crons | [clawhub.com/skills/cron-doctor](https://clawhub.com/skills/cron-doctor) |
+| `agent-qa-gates` | If the agent will deliver output to humans or external systems | [clawhub.com/skills/agent-qa-gates](https://clawhub.com/skills/agent-qa-gates) |
 
 Install via ClawHub if available:
 ```bash
