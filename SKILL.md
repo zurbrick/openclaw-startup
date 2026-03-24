@@ -1,6 +1,6 @@
 ---
 name: openclaw-startup
-version: 1.0.0
+version: 1.0.2
 description: >
   First-run setup wizard for new OpenClaw agents. Interviews the user to generate a
   tailored SOUL.md, scaffolds memory architecture, installs recommended crons for
@@ -122,7 +122,6 @@ Recommend installing these skills based on the user's needs:
 | `agent-hardening` | If the agent handles sensitive data or external channels | [clawhub.com/skills/agent-hardening](https://clawhub.com/skills/agent-hardening) |
 | `openclaw-backup` | If the user wants disaster recovery | [clawhub.com/skills/openclaw-backup](https://clawhub.com/skills/openclaw-backup) |
 | `openclaw-guide` | Always — config and troubleshooting reference | [clawhub.com/skills/openclaw-guide](https://clawhub.com/skills/openclaw-guide) |
-| `cron-doctor` | If the user sets up crons | [clawhub.com/skills/cron-doctor](https://clawhub.com/skills/cron-doctor) |
 | `agent-qa-gates` | If the agent will deliver output to humans or external systems | [clawhub.com/skills/agent-qa-gates](https://clawhub.com/skills/agent-qa-gates) |
 
 Install via ClawHub if available:
